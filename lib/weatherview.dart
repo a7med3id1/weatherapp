@@ -126,10 +126,10 @@ class _WeatherViewState extends State<WeatherView> {
                             ),
                             Text("${model!.main.temp.toString()}C",
                                 style: const TextStyle(
-                                    fontSize: 50, color: Colors.white)),
+                                    fontSize: 45, color: Colors.white)),
                             Text(model!.clouds.toString(),
                                 style: const TextStyle(
-                                    fontSize: 20, color: Colors.white))
+                                    fontSize: 25, color: Colors.white))
                           ],
                         )
                       : const SizedBox.shrink()
